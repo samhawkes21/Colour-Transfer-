@@ -45,15 +45,18 @@ This project:
 optimal-transport-colour-transfer/
 │
 ├── src/
-│   ├── main.py                  # Entry point (runs experiments)
-│   ├── optimal_transport.py    # Sinkhorn + cost computation
-│   ├── pixels.py               # Feature extraction + NN mapping
-│   ├── images.py               # Image I/O utilities
-│   ├── utilities.py            # Optimal transport utility functions
+│   ├── main.py                     # Entry point (runs experiments)
+│   ├── optimal_transport.py        # Sinkhorn + cost computation
+│   ├── pixels.py                   # Feature extraction + NN mapping
+│   ├── images.py                   # Image I/O utilities
+│   ├── utilities.py                # Optimal transport utility functions
 │
 ├── data/
-│   ├── input/                  # Input images
-│   └── output/                 # Generated results
+│   ├── input/                      # Input images
+│   └── output/                     # Generated results
 │
+├── Figure_1.png                    # Example of results from project
+├── Optimal Transport Thesis.pdf    # My bachelor's thesis, which provides a thorough explanation of optimal transport
+├── Theory Overview.pdf             # Brief explanation of the theory used in this project
 ├── requirements.txt
 └── README.md
